@@ -1,0 +1,103 @@
+{
+  "home": {
+    "found_you": "seni buldum",
+    "role": "Yazilim Gelistirici",
+    "location": "Istanbul, Turkiye",
+    "currently_at": "Su anda @",
+    "current_company": "Amadeus",
+    "current_department": "— Loyalty Management",
+    "view_cv": "CV'yi Goruntule",
+    "contact": "Iletisim"
+  },
+  "cv": {
+    "sections": {
+      "summary": "Ozet",
+      "experience": "Profesyonel Deneyim",
+      "education": "Egitim",
+      "skills": "Teknik Beceriler",
+      "projects": "Projeler (Acik Kaynak)"
+    },
+    "hero": {
+      "role": "Yazilim Gelistirici"
+    },
+    "summary_text": "Merhaba, ben Ismail, bilgisayarlara ve onlarla ilgili her seye merakli bir yazilim gelistiricisiyim. Universiteden bu yana yazilim gelistirmeyle ilgileniyorum ve 2022'den beri profesyonel olarak calisiyorum. Alameti farikam, yeni seyleri hizlica ve kendi basima ogrenebilmektir. Bos zamanlarimda bilgisayar sistemleri uzerine teknik kitaplar okuyorumdur, ya strateji oyunu oynuyorumdur ya da agirlik kaldiriyorumdur.",
+    "education": {
+      "university": "Marmara Universitesi",
+      "degree": "Elektrik ve Elektronik Muhendisligi",
+      "language": "Ingilizce"
+    },
+    "skills": {
+      "categories": {
+        "Languages": "Diller",
+        "Frameworks": "Frameworkler",
+        "Databases": "Veritabanlari",
+        "Infrastructure": "Altyapi",
+        "Architecture": "Mimari",
+        "Testing": "Test",
+        "Interests": "Ilgi Alanlari"
+      }
+    },
+    "experience": {
+      "0": {
+        "role": "Yazilim Gelistirici",
+        "description": "Musteri talepleri dogrultusunda yeni ozellikler gelistirme, sorgu optimizasyonlari, rapor otomasyonu ve Loyalty Management projesi kapsaminda hata duzeltmeleri. Agile, kurumsal ve uluslararasi bir ortam — 8 milyon musteri hesabi barindiran devasa veri kumeleriyle calisiyorum."
+      },
+      "1": {
+        "role": "Yazilim Muhendisi",
+        "description": "Guclu bir start-up kulturunde ilk profesyonel deneyim. Dar deadlinelar altinda genis bir teknoloji yelpazesinde urunler gelistirdim: backend mikro servis platformu, arayuz gelistirme, sifirdan kurulan bir alarm yoneticisi, ozel Wireshark dissector'lar, SSH adaptor, Dockerfilelar ve veritabani migrasyonlari."
+      },
+      "2": {
+        "role": "Stajyer",
+        "description": "Bulut gecis danismanlik ekibinin bir parcasiydim. Bulut saglayicilari arasinda fiyatlandirma arastirmasi yaptim, raporlar yazim ve platform secim kararlari icin risk degerlendirmeleri sundum."
+      }
+    },
+    "projects": {
+      "0": {
+        "subtitle": "Modern Man Sayfasi Olusturucu",
+        "description": "Herhangi bir dil, fonksiyon, metot veya nesne icin man sayfasi benzeri CLI dokumantasyon olusturucu. Daha once olusturulan belgeleri onbellege alir ve aninda sunar — token ve bekleme suresini azaltir. Ciktiyi Glow araciligiyla terminal icinde renkli Markdown olarak gosterir."
+      },
+      "1": {
+        "subtitle": "Mikro Servise Hazir Backend Platformu",
+        "description": "JWT kimlik dogrulama, e-posta modulu, Redis sarmalayici ve genisletilebilir hata yonetimi sunan tam guvenlik backend'i. Planlanan: OAuth2, SMS modulu, push bildirimleri, SQL disa aktarma raporlama ve alarm yoneticisi."
+      }
+    }
+  },
+  "books": {
+    "sections": {
+      "read": "Okuduklarim",
+      "planning": "Okumak Istediklerim",
+      "review": "Incelemem",
+      "currently_reading": "Simdi okuyorum",
+      "no_books": "Henuz kitap eklenmedi.",
+      "no_review": "Henuz inceleme yazilmadi.",
+      "no_selection": "Kitap secilmedi."
+    },
+    "reviews": {
+      "ddia": ["Su an okuyorum, dolayisiyla henuz bir inceleme yok"],
+      "ostep": [
+        "Gercekten goz acici bir kitap. Programlara ve bilgisayarlara bakis acimi tamamen degistirdi. Pek cok sirri cozuyor, aciklamalar net ve okunurluk mukemmel — yazarin mizahina buradan bi 'shoutout'.",
+        "Ilk iki bolum (virtualization ve concurrency) kendine \"gelistirici\" diyen herkes tarafindan okunmali",
+        "Ucuncu bolum (persistence) yine mukemmel olmakla birlikte, konular kisa ve cesitli oldugu icin kavramasi gercekten zorlayiciydi. Ileride tekrar bakacagim."
+      ],
+      "itm": [
+        "Benim icin okumasi keyifli bir kitapti. Pipelining, bubbling, cache'lerin neden onemli oldugu gibi onceden yabanci oldugum pek cok kavrami ogrendim.",
+        "Kitap, cocukken babamin bilgisayarlarinda bulunan Pentium 4 ve Core 2 Duo gibi gercek donanimlari ele aliyor, bu da tatli bir nostalji oldu."
+      ],
+      "cmodern": [
+        "C becerilerimi yenilemek ve Operating Systems Three Easy Pieces'i okumaya hazirlanmak icin bu kitabi alip okudum.",
+        "Ama sonradan C ve sistem programlamadan, web islerinden cok daha fazla keyif aldigimi fark ettim. Beni daha zeki hissettiriyor (tamam, gulmeyin)",
+        "Her bolumun sonunda alistirmalar olmasi hosuma gitti. Ancak bazi bolumler (wchar destegi gibi) gereksiz ve atlanabilir; zira bu bir referans kitabi."
+      ],
+      "sicp": [
+        "Alismis oldugundan tam bir paradigma degisikligiydi. Cok fazla matematik tabanli ornek var; bu yuzden zaman zaman cok bogucu ya da uyku getirici olabiliyor. Racket (Lisp) ile yazmak da cabasi (gozlere eziyet).",
+        "Bununla birlikte, herhangi bir veriyi fonksiyon olarak saklayabildigimiz fikriyle tanismam, gercek anlamda bir aydinlanmaydi.",
+        "Bir gun buna tekrar donecegim; tam olarak sindiremedim hissine kapildim."
+      ],
+      "javabible": [
+        "Her sey bu kitapla basladi. Birinci sinifta ilk programlama dersinden sonra universite'yi bitirip bitiremeyecegim konusunda guven problemi yasadim (:D) ve bu kitabi okumaya basladim. Bastan sona. Gerisi tarih.",
+        "Kariyerimin baslangic noktasi olmasindan dolayi kalbimde cok ozel bir yere sahip. Kitabin konulari aciklama sekli muazamdi, ancak biraz agir bir kitap (1200+ sayfa!!).",
+        "Alistirmalar mukemmel. Cok sayida kodlama ornegi de var. Java ogenmek isteyen herkese hayatimin en kolay tavsiyesi."
+      ]
+    }
+  }
+}

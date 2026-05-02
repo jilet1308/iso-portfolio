@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@plugin "tailwind-scrollbar";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ── CV entrance animations ──────────────────────────────────────────────── */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cv-section {
+  opacity: 0;
+}
+
+.cv-section.in-view {
+  animation: fadeInUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ── Page content area (shared between routes) ───────────────────────────── */
+
+.page-area {
+  position: fixed;
+  top: 6rem;   /* h-24 = 6rem */
+  left: 0;
+  right: 0;
+  bottom: 4.5rem; /* h-18 = 4.5rem */
+  overflow: auto;
+}
+
+@font-face {
+    font-family: "BBT";
+    src:
+        url("/assets/fonts/BBT_Mono_Regular.woff2") format("woff2"),
+        url("/assets/fonts/BBT_Mono_Regular.woff2.woff") format("woff");
+    font-weight: normal;
+}
+
+@theme {
+    --font-sans: "BBT", sans-serif;
+}
+
+@layer base {
+    * {
+        font-family: "BBT", sans-serif;
+    }
+}

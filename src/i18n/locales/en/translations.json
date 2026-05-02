@@ -1,0 +1,103 @@
+{
+  "home": {
+    "found_you": "found you",
+    "role": "Software Developer",
+    "location": "Istanbul, Turkey",
+    "currently_at": "Currently @",
+    "current_company": "Amadeus",
+    "current_department": "— Loyalty Management",
+    "view_cv": "View CV",
+    "contact": "Contact"
+  },
+  "cv": {
+    "sections": {
+      "summary": "Summary",
+      "experience": "Professional Experience",
+      "education": "Education",
+      "skills": "Technical Skills",
+      "projects": "Projects (Open Source)"
+    },
+    "hero": {
+      "role": "Software Developer"
+    },
+    "summary_text": "Hi, I'm İsmail — a software developer with a passion for computers and anything related to them (some might even call me a nerd). I've been involved in software development since university and working professionally since 2022. I take pride in learning and applying things quickly and independently. In my free time I enjoy reading technical books on computer systems, playing 90's RTS games and weightlifting. Very comfortable with English — quite fluent at it.",
+    "education": {
+      "university": "Marmara University",
+      "degree": "Electrical & Electronics Engineering",
+      "language": "English"
+    },
+    "skills": {
+      "categories": {
+        "Languages": "Languages",
+        "Frameworks": "Frameworks",
+        "Databases": "Databases",
+        "Infrastructure": "Infrastructure",
+        "Architecture": "Architecture",
+        "Testing": "Testing",
+        "Interests": "Interests"
+      }
+    },
+    "experience": {
+      "0": {
+        "role": "Associate Software Engineer",
+        "description": "Developing new features on customer requests, query optimizations, report automation and occasional bug fixes inside the Loyalty Management project. Agile, corporate and international environment — working with massive datasets courtesy of 8 million customer accounts."
+      },
+      "1": {
+        "role": "Software Engineer",
+        "description": "First professional role in a strong start-up culture. Shipped products on tight deadlines across a wide range of technologies: backend microservices platform, UI development, a full alarm manager built from scratch, custom Wireshark dissectors, an SSH adapter, Dockerfiles, and DevOps database migrations."
+      },
+      "2": {
+        "role": "Intern",
+        "description": "Part of the cloud migration consultancy team. Researched pricing across cloud providers, wrote detailed reports and provided risk assessments for platform selection decisions."
+      }
+    },
+    "projects": {
+      "0": {
+        "subtitle": "Modern Man Page Generator",
+        "description": "A man page-like CLI documentation generator for any language, function, method or object. Caches previously generated docs and serves them instantly — saving tokens and wait time. Renders output as colorful Markdown via Glow."
+      },
+      "1": {
+        "subtitle": "Microservice Ready Backend Platform",
+        "description": "A full security backend providing JWT authentication, email module, Redis wrapper, and extensible error handling. Planned: OAuth2, SMS module, push notifications, SQL export reporting, and an alarm manager."
+      }
+    }
+  },
+  "books": {
+    "sections": {
+      "read": "Books I've Read",
+      "planning": "Planning to Read",
+      "review": "My Review",
+      "currently_reading": "Currently reading",
+      "no_books": "No books added yet.",
+      "no_review": "No review written yet.",
+      "no_selection": "No book selected."
+    },
+    "reviews": {
+      "ddia": ["Currently reading this so no review at the moment"],
+      "ostep": [
+        "A total eye opener. Completely changed how I look at programs and computers in general. A lot of de-mystification, clear explainations and excellent readability — courtesy of the writer's humor.",
+        "First two parts (virtualization and concurrency) should honestly be read by anyone who calls themselves a \"developer\"",
+        "The third part (persistence), although still excellent, was really difficult to wrap my head around since the topics are short and diverse. Will have a look at it again in the future."
+      ],
+      "itm": [
+        "Was a fun one to read for me. Taught me a lot of concepts which were alien to me prior to it like pipelining, bubbling, why caches matter etc.",
+        "The book covers a lot of real material like Pentium 4 and Core 2 Duo, which were inside my dad's computers at times when I was a kid, so it was both a pivot to the past and some nostalgia too."
+      ],
+      "cmodern": [
+        "Bought and read this book to re-sharpen my skills in C, also to prepare myself to read Operating Systems Three Easy Pieces.",
+        "Though, later I realized I enjoy writing in C and systems more than I do with web stuff. It makes me feel smarter (okay, don't laugh)",
+        "I really love the fact that it had exercises at the end of each section. Though some sections are unnecessary to read (like wchar support) and should be skipped as that is a reference book."
+      ],
+      "sicp": [
+        "A complete paradigm shift from what I was used to. A lot of math based examples, so it can get boring or mind numbing very fast at times. Writing in Racket (Lisp) does not help to the eyes either.",
+        "Though, I was legitimately perplexed by the fact that we can store any data as functions.",
+        "Will come back to this one day again, as I feel like I couldn't quite ingest it fully."
+      ],
+      "javabible": [
+        "It all started with this. After the first programming lecture in my freshman year, I felt insecure about whether I will be able to graduate from the university, and started reading it. Cover to cover. Rest is history.",
+        "Holds a very special place in my heart as it gave birth to my career. Very good explanations, although somewhat of a heavy book (1200+ pages!!).",
+        "Exercises are excellent. A lot of coding examples too. Easiest recommendation of my life to anyone who really wants to learn Java."
+      ]
+    }
+  }
+}
