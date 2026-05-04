@@ -64,11 +64,10 @@ function Navbar() {
             i18n.changeLanguage(i18n.language === "en" ? "tr" : "en");
           }}
         >
-          {/*<i className="fa-solid fa-language text-2xl dark:text-amber-50" />*/}
           {i18n.language === "en" ? (
-            <p className="text-2xl dark:text-amber-50">en</p>
-          ) : (
             <p className="text-2xl dark:text-amber-50">tr</p>
+          ) : (
+            <p className="text-2xl dark:text-amber-50">en</p>
           )}
         </GoofyButton>
         <GoofyButton className={navbarButtonStyle} onClick={toggleTheme}>
